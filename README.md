@@ -1,42 +1,43 @@
-# ✨ Full Stack Realtime Chat App ✨
+# PulseChat 💬
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+PulseChat is a real-time full-stack chat application built using the MERN stack with socket.io integration. It supports seamless messaging, authentication, light/dark themes, and a modern responsive UI.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+---
 
-Highlights:
+## 🚀 Features
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+-  Real-time Chat with Socket.IO
+-  Light & Dark Mode Support
+-  Image Uploads with Cloudinary
+-  Modern UI with Tailwind CSS
 
-### Setup .env file
+---
 
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
+## 📦 Tech Stack
 
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
+**Frontend**: React, Styled Components
+**Backend**: Node.js, Express.js, Socket.IO  
+**Database**: MongoDB
+**Auth**: Simple Password Authentication
+**Storage**: Cloudinary
 
-NODE_ENV=development
-```
+---
 
-### Build the app
+## 📁 Folder Structure
 
-```shell
-npm run build
-```
+PulseChat/
+├── backend/
+│   └── src/
+│       ├── controllers/
+│       ├── routes/
+│       ├── models/
+│       ├── lib/
+│       └── ...
+├── frontend/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── store/
+│       └── ...
 
-### Start the app
-
-```shell
-npm start
-```
+---
