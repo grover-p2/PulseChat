@@ -12,15 +12,13 @@ PulseChat is a real-time full-stack chat application built using the MERN stack 
 -  Modern UI with Tailwind CSS
 
 ---
-
 ## 📦 Tech Stack
 
-**Frontend**: React, Styled Components
-**Backend**: Node.js, Express.js, Socket.IO  
-**Database**: MongoDB
-**Auth**: Simple Password Authentication
-**Storage**: Cloudinary
-
+- **Frontend:** React, Styled Components  
+- **Backend:** Node.js, Express.js, Socket.IO  
+- **Database:** MongoDB  
+- **Authentication:** Simple Password Authentication  
+- **Cloud Storage:** Cloudinary
 ---
 
 ## 📁 Folder Structure
