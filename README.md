@@ -19,23 +19,35 @@ PulseChat is a real-time full-stack chat application built using the MERN stack 
 - **Database:** MongoDB  
 - **Authentication:** Simple Password Authentication  
 - **Cloud Storage:** Cloudinary
+
 ---
 
 ## 📁 Folder Structure
 
+```
 PulseChat/
 ├── backend/
+│   ├── package.json
 │   └── src/
 │       ├── controllers/
 │       ├── routes/
 │       ├── models/
 │       ├── lib/
+│       ├── middleware/
 │       └── ...
 ├── frontend/
+│   ├── package.json
 │   └── src/
 │       ├── components/
 │       ├── pages/
 │       ├── store/
+│       ├── constants/
+│       ├── lib/
+│       ├── assets/
 │       └── ...
+├── LICENSE
+├── README.md
+└── package.json
+```
 
 ---
